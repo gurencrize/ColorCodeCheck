@@ -1,5 +1,5 @@
 let clearbutton = document.getElementById("ColorCodeCheck")
-ColorCodeCheck.onclick = function () {
+clearbutton.onclick = function () {
     let val = document.getElementById("value").value
     let result=ColorCodeCheck(val)
     let resulttext = ""
